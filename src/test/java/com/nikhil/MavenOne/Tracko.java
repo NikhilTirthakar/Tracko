@@ -36,6 +36,7 @@ public class Tracko
 		  driver= new FirefoxDriver();
 		  driver.get("http://dev.tracko.co.in/");
 	}
+	
 	if(browser.equals("IE"))
 	{
 		 System.setProperty("webdriver.ie.driver", "Resources/IEDriverServer.exe");

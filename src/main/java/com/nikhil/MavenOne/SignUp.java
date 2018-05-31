@@ -20,7 +20,7 @@ public class SignUp
 	  
 	  // driver.findElement(By.xpath("//*[@id='navbar-collapse']/ul/li[6]/a")).click();
 	    driver.findElement(By.id("name")).sendKeys("NikhilTirthakar");
-		driver.findElement(By.id("email")).sendKeys("nikki@tracko.com");
+		driver.findElement(By.id("email")).sendKeys("niikki@tracko.com");
 		driver.findElement(By.id("mobile")).sendKeys("4444444443");
 		driver.findElement(By.id("sub_btn_signup")).click();
 		Thread.sleep(5000);

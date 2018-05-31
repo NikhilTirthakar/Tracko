@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <parameter name="browsertest" value="firefox"/>
+    <classes>
+      <class name="com.nikhil.MavenOne.Tracko">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="f"/>
+          <include name="abc"/>
+          <include name="abc"/>
+          <include name="abc"/>
+        </methods>
+      </class> <!-- com.nikhil.MavenOne.Tracko -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
